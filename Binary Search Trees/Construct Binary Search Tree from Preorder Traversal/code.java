@@ -15,9 +15,9 @@
  */
 class Solution {
     public TreeNode bstFromPreorder(int[] preorder) {
-        if(preorder.length<0) return null;
+        if(preorder.length<=0) return null;
         TreeNode root=new TreeNode(preorder[0]);
-        if(preorder.length==0) return root;
+        if(preorder.length==1) return root;
         for(int i=1;i<preorder.length;i++){
             insertion(root,preorder[i]);
         }
