@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
 class Solution {
     public String[] spellchecker(String[] wordlist, String[] queries) {
         HashSet<String> exact=new HashSet<>();
