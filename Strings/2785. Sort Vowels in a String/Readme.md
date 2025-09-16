@@ -1,6 +1,6 @@
-2785. Sort Vowels in a String
+**2785. Sort Vowels in a String**
 
-Medium
+[Medium](https://)
 
 Given a 0-indexed string s, permute s to get a new string t such that:
 
