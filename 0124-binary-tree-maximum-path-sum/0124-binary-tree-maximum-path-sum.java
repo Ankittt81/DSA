@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    int ans=0;
+    int ans=Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {
         sum(root);
         return ans;
